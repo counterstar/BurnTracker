@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F68B168C204D95BD005536CE /* FoodEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B168B204D95BD005536CE /* FoodEditTableViewCell.swift */; };
 		F6CD6CA12036D17C0046698E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD6CA02036D17C0046698E /* AppDelegate.swift */; };
-		F6CD6CA32036D17C0046698E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD6CA22036D17C0046698E /* ViewController.swift */; };
 		F6CD6CA62036D17C0046698E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CD6CA42036D17C0046698E /* Main.storyboard */; };
 		F6CD6CA82036D17C0046698E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CD6CA72036D17C0046698E /* Assets.xcassets */; };
 		F6CD6CAB2036D17C0046698E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CD6CA92036D17C0046698E /* LaunchScreen.storyboard */; };
+		F6CD6CB32036D2860046698E /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD6CB22036D2860046698E /* Food.swift */; };
+		F6CD6CB52036D5410046698E /* UserDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD6CB42036D5410046698E /* UserDescription.swift */; };
+		F6CD6CB7203708130046698E /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD6CB6203708130046698E /* FoodTableViewController.swift */; };
+		F6CD6CBD20370A250046698E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CD6CBC20370A250046698E /* Default-568h@2x.png */; };
+		F6CD6CBF203C6F260046698E /* FoodEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD6CBE203C6F260046698E /* FoodEditTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F68B168B204D95BD005536CE /* FoodEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEditTableViewCell.swift; sourceTree = "<group>"; };
 		F6CD6C9D2036D17C0046698E /* BurnTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurnTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CD6CA02036D17C0046698E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6CD6CA22036D17C0046698E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6CD6CA52036D17C0046698E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6CD6CA72036D17C0046698E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6CD6CAA2036D17C0046698E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6CD6CAC2036D17C0046698E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CD6CB22036D2860046698E /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F6CD6CB42036D5410046698E /* UserDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDescription.swift; sourceTree = "<group>"; };
+		F6CD6CB6203708130046698E /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		F6CD6CBC20370A250046698E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6CD6CBE203C6F260046698E /* FoodEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEditTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		F6CD6C942036D17B0046698E = {
 			isa = PBXGroup;
 			children = (
+				F6CD6CBC20370A250046698E /* Default-568h@2x.png */,
 				F6CD6C9F2036D17C0046698E /* BurnTracker */,
 				F6CD6C9E2036D17C0046698E /* Products */,
 			);
@@ -54,14 +65,50 @@
 		F6CD6C9F2036D17C0046698E /* BurnTracker */ = {
 			isa = PBXGroup;
 			children = (
-				F6CD6CA02036D17C0046698E /* AppDelegate.swift */,
-				F6CD6CA22036D17C0046698E /* ViewController.swift */,
-				F6CD6CA42036D17C0046698E /* Main.storyboard */,
-				F6CD6CA72036D17C0046698E /* Assets.xcassets */,
-				F6CD6CA92036D17C0046698E /* LaunchScreen.storyboard */,
 				F6CD6CAC2036D17C0046698E /* Info.plist */,
+				F6CD6CA02036D17C0046698E /* AppDelegate.swift */,
+				F6CD6CB82037098D0046698E /* Model */,
+				F6CD6CB9203709960046698E /* Controller */,
+				F6CD6CBA203709A30046698E /* View */,
+				F6CD6CBB203709B10046698E /* Misc */,
 			);
 			path = BurnTracker;
+			sourceTree = "<group>";
+		};
+		F6CD6CB82037098D0046698E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD6CB22036D2860046698E /* Food.swift */,
+				F6CD6CB42036D5410046698E /* UserDescription.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6CD6CB9203709960046698E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD6CBE203C6F260046698E /* FoodEditTableViewController.swift */,
+				F6CD6CB6203708130046698E /* FoodTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6CD6CBA203709A30046698E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD6CA42036D17C0046698E /* Main.storyboard */,
+				F68B168B204D95BD005536CE /* FoodEditTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6CD6CBB203709B10046698E /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F6CD6CA72036D17C0046698E /* Assets.xcassets */,
+				F6CD6CA92036D17C0046698E /* LaunchScreen.storyboard */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6CD6CAB2036D17C0046698E /* LaunchScreen.storyboard in Resources */,
+				F6CD6CBD20370A250046698E /* Default-568h@2x.png in Resources */,
 				F6CD6CA82036D17C0046698E /* Assets.xcassets in Resources */,
 				F6CD6CA62036D17C0046698E /* Main.storyboard in Resources */,
 			);
@@ -136,8 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6CD6CA32036D17C0046698E /* ViewController.swift in Sources */,
 				F6CD6CA12036D17C0046698E /* AppDelegate.swift in Sources */,
+				F68B168C204D95BD005536CE /* FoodEditTableViewCell.swift in Sources */,
+				F6CD6CB7203708130046698E /* FoodTableViewController.swift in Sources */,
+				F6CD6CBF203C6F260046698E /* FoodEditTableViewController.swift in Sources */,
+				F6CD6CB32036D2860046698E /* Food.swift in Sources */,
+				F6CD6CB52036D5410046698E /* UserDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
